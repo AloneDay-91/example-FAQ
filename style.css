@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+body {
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #333;
+    background-color: #fff;
+}
+
+h1 {
+    text-align: center;
+    font-size: 2.5rem;
+    color: #fff;
+    padding-top: 50px;
+}
+
+.container {
+    margin-top: 200px;
+    background-color: transparent;
+    width: auto;
+}
+
+.div {
+    margin-left: auto;
+    margin-right: auto;
+    width: 800px;
+    height: auto;
+    margin-bottom: 10px;
+    background-color: transparent;
+    color: #fff;
+    border-bottom: 1px solid #303641;
+    padding: 20px;
+    font-family: "Poppins", sans-serif;
+    font-size: 18px;
+}
+
+a {
+    width: 800px;
+    height: 70px;
+    text-decoration: none;
+    color: #1f9bcd;
+}
+
+.bx.bxs-chevron-down {
+    float: right;
+    background-color: transparent;
+}
+
+.text {
+    padding-top: 20px;
+    font-family: "Poppins", sans-serif;
+    font-weight: normal;
+    font-size: 15px;
+    font-style: italic;
+    transition-duration: 0.4s;
+}
+
+summary {
+    list-style: none;
+}
+
+.link {
+    color: #1f9bcd;
+    font-weight: bold;
+}
+
+
+/* RIBBON */
+
+.container__wrapper {
+    /* Displayed at the top left corner */
+    left: 0px;
+    position: absolute;
+    top: 0px;
+
+    /* Size */
+    height: 100px;
+    width: 100px;
+
+    /* Hide the part of its children which is displayed outside */
+    overflow: hidden;
+}
+
+.container__ribbon {
+    /* Position */
+    left: -64px;
+    position: absolute;
+    top: 32px;
+
+    /* Size */
+    height: 24px;
+    width: 206px;
+
+    /* Displayed diagonally */
+    transform: rotate(-45deg);
+
+    /* Background color */
+    background-color: rgb(255, 255, 255);
+
+    /* Centerize the text content */
+    text-align: center;
+}
